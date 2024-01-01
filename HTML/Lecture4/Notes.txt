@@ -1,0 +1,4 @@
+1. Global attributes are those attributes that are available everywhere, and any tag can
+   use it. Some example is style="", class="", id="" ext, for more refer MDN documents.
+
+
