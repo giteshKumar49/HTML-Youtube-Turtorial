@@ -1,0 +1,15 @@
+1. HTML tags are not just tags but it denotes a meaning to it.
+   Like h1 means that the heading is the Main heading of the page.
+
+2. Structure of an HTML page looks like:
+                           HTML
+                          /    \
+                      head      body
+                     /   \      /   \
+                  title  meta  h1   p ..........etc
+
+3. Use google dev blog to see the meta tags information as it will be useful
+   to rank the website using Google SEO.
+4. Always close the tags in HTML as it will be a good practice and will
+   be beneficial when we will be doing JS and React JS.
+5. Some tags have compulsory attributes. like a tag has href="" attribute.
