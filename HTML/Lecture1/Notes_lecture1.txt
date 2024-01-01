@@ -1,0 +1,12 @@
+1. Just an introduction of HTML.
+2. Use Emmet heavily.
+3. Use extension like live preview to view changes 
+   fast. but one drawback is we can't see the functionalities like
+   inspecting element etc using it.
+
+4. Apache2 is early web server which uses linux, so the default configurations
+   of these servers was that when the request come to those servers then an
+   index.html file is served by it to the client. So this is a convention
+   followed by most of the web servers today that the file served by them
+   is index.html only.
+    
