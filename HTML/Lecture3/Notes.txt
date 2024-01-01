@@ -1,0 +1,21 @@
+NOTE:  whenever you are studying this refer the documentation and see for the
+       atttributes used with the tag....
+
+1. Shortcuts : * Alt + Shift + DownKey ---> Duplicates the line
+   * Alt + Click on place wou want to edit, creates multiple
+   cursors to edit the text.
+   (USEFUL to edit the ending and opening of the tags)
+
+2. h6 is the most less used heading as if your page needs h6 then you might
+   need a new page altogether.
+
+3. Title attribute can be used with any tag.
+4. As we will learn react the instead of writing <br> for line break, use
+   <br />. 
+5. As HTML don't know about the linespaces so there is one classic problem with HTML,
+   which is CLASSIC POEM PROBLEM inside a paragraph (<p></p>).
+   * to tackle the abopve problem we can use linebreaks <br> but this is not a
+     good way to do this. Insted of this use <pre></pre> tag, it will preserve
+     the formatting of the text inside it.
+   * pre tag, inside it we will be writing codes in tit as it will not do 
+     auto formating and we can manipulate it by using CSS or JS.
