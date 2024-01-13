@@ -1,0 +1,23 @@
+1. Discussed about <a> tag ie. link tag, and its uses:
+   a. Provide id to a section and then refer it using <a href=""></a>, using this we can scroll to the specific section for wit the id is mentioned.
+
+   b. target = "_top","_self","_parent" is not used much now they were used by iframes and as now adays iframe is not used much do we do not use them muc but in the older times it was really famous.
+
+   to learn more about this refer : https://stackoverflow.com/questions/18470097/difference-between-self-top-and-parent-in-the-anchor-tag-target-attribute
+
+   this stack overflow article.
+
+2. Discussion on images:
+   
+   a. we can get free hight quality images from unsplash.com, and pexels.com
+   b. While working with images width="--px" is mostly used not height="".
+   c. About paths(alsolute and relative):
+      ** ./ --> means curent folder
+      ** ../ --> mans go one folder backward
+      ** ./images/ --> mans go to images folder for  current position
+   d. Avoid introducting spaces in your image name as  in local it will not complain but if you take it to server then we will get into lots of issues. 
+   So always make image name as simgleword or seperate by (-) hyphen or (_) underscores.
+
+3. We can make image map too using image map generator and with it we can do various things with our image.
+4. using picture tag we can provide a srcset to it and also can sepcify conditions like shown in the example that
+   how we wan to show the image conditionally.(Explore more usecases)
