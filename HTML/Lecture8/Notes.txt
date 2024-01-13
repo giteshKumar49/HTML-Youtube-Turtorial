@@ -1,0 +1,6 @@
+1. <ul style="list-style-type: square">  
+    this particular thing is not used much nowadays, and is done mainly by CSS...
+
+2. Block leavel and inline elements ;
+   block level: those that occupies full space of the page.
+   inline : elements that do not occupy full page space
