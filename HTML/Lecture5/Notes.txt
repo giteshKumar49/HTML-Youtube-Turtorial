@@ -1,0 +1,35 @@
+1. while working in production, our website designers will give us the color code values.
+   Use hex values, rgb values, or hsl (hue, saturation, light) values while working into production(don not 
+   use name of the color but can use it while learning😉).
+
+2. hwb values are not used for color coding.
+3. rgbs, hsla here a is alpha channel it means opacity.
+4. order in which we are defining css also matter. ie.
+   *   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture5</title>
+    <style>
+      body{
+        background-color: aqua;
+      }
+      </style>
+      <link rel="stylesheet" href="style.css">
+  </head>
+   
+    -----> here the background color will be the one defined in the style.css file.
+
+    *   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture5</title>
+      <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+        background-color: aqua;
+      }
+      </style>
+  </head>
+
+  -------> in this case the background color will be aqua as defined in the 
+           style tag.
