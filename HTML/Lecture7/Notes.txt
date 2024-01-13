@@ -1,0 +1,9 @@
+1. it is important to colapse table border as the border of table have some width too.
+
+   table {
+        width: 100%;
+        border-collapse: collapse;  <------ this
+        text-align: center;
+      }
+
+2. We generally manipulate table styling and formatting by using css.

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture7(Tables)</title>
+    <style>
+      body {
+        background-color: #414141;
+        color: #fff;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      td,
+      th {
+        border: 1px solid red;
+        padding: 10px;
+      }
+      th {
+        color: aqua;
+      }
+      tr:nth-child(odd) {
+        background-color: #313131;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- table>tr>th*3 (Emment shortcut to get below structure of the table)-->
+    <!-- <table>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </table> -->
+
+    <h3>Tables</h3>
+    <table>
+      <tr>
+        <th>Country</th>
+        <th>Country CODE</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>IN</td>
+        <td>india@google.com</td>
+      </tr>
+      <tr>
+        <td>United States of America</td>
+        <td>USA</td>
+        <td>usa@google.com</td>
+      </tr>
+      <tr>
+        <td>Japan</td>
+        <td>JP</td>
+        <td>jp@google.com</td>
+      </tr>
+      <tr>
+        <td>China</td>
+        <td>CN</td>
+        <td>cn@google.com</td>
+      </tr>
+    </table>
+    <p>Another way to make table (Giving Heading Top to Bottom)</p>
+    <!-- Just give th where you want heading -->
+    <table>
+      <tr>
+        <th colspan="3">Country</th>
+        <!-- colspan says ki kitne columns ki jagha lunga (for row span go to MDN docs)-->
+        <td>India</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <th>CODE</th>
+        <td>IN</td>
+        <td>US</td>
+      </tr>
+    </table>
+    <p>Another example</p>
+    <table style="width: 100%">
+      <!-- Colgroup is used to group two or more columns (NOT USED MUCH, we use java script to do this)-->
+      <colgroup>
+        <col span="2" style="background-color: green" />
+      </colgroup>
+      <tr>
+        <th>Country</th>
+        <th>Country CODE</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>IN</td>
+        <td>india@google.com</td>
+      </tr>
+      <tr>
+        <td>United States of America</td>
+        <td>USA</td>
+        <td>usa@google.com</td>
+      </tr>
+      <tr>
+        <td>Japan</td>
+        <td>JP</td>
+        <td>jp@google.com</td>
+      </tr>
+      <tr>
+        <td>China</td>
+        <td>CN</td>
+        <td>cn@google.com</td>
+      </tr>
+    </table>
+    <p>Table head, body and foot(thead, tbody and tfoot)</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Items</th>
+          <th>Expenditure</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lays</td>
+          <td>Rs.90</td>
+        </tr>
+        <tr>
+          <td>Burger</td>
+          <td>Rs.500</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total:</hd>
+          <td>Rs.590/-</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
